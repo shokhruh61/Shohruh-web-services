@@ -12,6 +12,7 @@ import Faq from './pages/Faq'
 import Contact from './pages/Contact'
 import FinalCta from './pages/FinalCta'
 import Footer from './pages/Footer'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 function App() {
   const [activeSection, setActiveSection] = useState('bosh-sahifa')
@@ -74,6 +75,7 @@ function App() {
         <FinalCta />
       </main>
       <Footer />
+      <SpeedInsights />
     </div>
   )
 }
