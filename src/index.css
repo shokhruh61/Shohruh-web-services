@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #6366f1;
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  [data-reveal] {
+    @apply opacity-0 translate-y-6 transition duration-700 ease-out;
+  }
+
+  .reveal-visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
