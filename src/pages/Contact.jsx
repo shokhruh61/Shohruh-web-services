@@ -73,14 +73,14 @@ function Contact() {
               <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <p className="text-sm text-slate-500">Telegram</p>
                 <p className="mt-2 text-lg font-semibold text-slate-900">
-                  @{brand.telegram}
+                  @makhmudov618
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <p className="text-sm text-slate-500">Email</p>
-                <p className="mt-2 text-lg font-semibold text-slate-900">
-                  {brand.email}
-                </p>
+                <a href="shohruxmahmudov61@gmail.com" className="mt-2 text-lg font-semibold text-slate-900">
+                  shohruxmahmudov61@gmail.com
+                </a>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <p className="text-sm text-slate-500">Joylashuv</p>
